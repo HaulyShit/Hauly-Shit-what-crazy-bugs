@@ -25,6 +25,7 @@ H...............................................................................
 I...............................................................................
 
 Input height....................................................................
+Input padding
 
 J...............................................................................
 
@@ -84,5 +85,25 @@ input {
     /* OR lesser padding */
 
     padding-top:    15px;
+    
+}
+
+
+
+
+### IE10 Input padding
+You don't see your input[type="checkbox"]? Then check your padding.
+#### Example:
+
+input[type="checkbox"] {
+
+    padding:    6px 10px;
+
+}
+
+#### Solution:
+input[type="checkbox"] {
+
+	padding:    0;
     
 }
